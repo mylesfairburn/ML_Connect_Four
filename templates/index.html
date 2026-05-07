@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Connect Four</title>
+    <link rel="stylesheet" href="static/style.css" />
+</head>
+<body>
+    <div class="cf-wrap">
+        <div class="scoreboard">
+        <div class="score-card">
+            <div class="score-label">
+            <span class="player-dot" style="background:#f5c518"></span>You
+            </div>
+            <div class="score-num" id="score-player">0</div>
+        </div>
+        <div class="score-divider">–</div>
+        <div class="score-card">
+            <div class="score-label">
+            <span class="player-dot" style="background:#e8392a"></span>AI
+            </div>
+            <div class="score-num" id="score-ai">0</div>
+        </div>
+        </div>
+        <div class="status-bar" id="status">Your turn</div>
+        <div class="board-outer">
+        <div class="board" id="board"></div>
+        </div>
+        <button class="reset-btn" id="reset-btn">New game</button>
+    </div>
+    <script src="static/client.js"></script>
+</body>
+</html>
